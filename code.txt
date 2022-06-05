@@ -1,0 +1,15 @@
+lib:list mylist
+
+mylist.push_back(1)
+print(mylist.size())
+
+print(mylist.get(0))
+mylist.push_back(8)
+print(mylist.size())
+print(mylist.get(1))
+mylist.pop(0)
+print(mylist.size())
+print(mylist.get(0))
+
+
+
